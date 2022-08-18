@@ -37,7 +37,7 @@ assessmentButton.onclick = () => {
   resultDivided.appendChild(headerDivided);
   resultDivided.appendChild(bodyDivided);
 
-  // ツイートエリアの作成
+  // ツイートエリアの作成　
   tweetDivided.innerText = '';
   const anchor = document.createElement('a');
   const hrefValue =
